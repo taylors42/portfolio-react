@@ -46,12 +46,10 @@ function toggleLanguage() {
     anhan.textContent = "Software Engineering Bachelor's";
     ada.textContent = "Back-End Development";
     micro.textContent = "I.T Administration and Management";
-
     isPT = true;
   }
 }
-for (const div of containerDiv) {
-  console.log(div);
+for (const div of containerDiv) 
 
   div.addEventListener("mouseenter", function () {
     targetDiv.style.display = "block";
