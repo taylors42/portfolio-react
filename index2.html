@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Adicione o botão e associe uma função JavaScript -->
+    <div class="toggleButton" onclick="toggleColor()">Linguagem</div>
+    <script>
+      var isGreen = true;
+      function toggleColor() {
+        var button = document.querySelector(".toggleButton");
+        if (isGreen) {
+          button.textContent = "PT";
+          isGreen = false;
+        } else {
+          button.textContent = "EN";
+          isGreen = true;
+        }
+      }
+    </script>
+  </body>
+</html>
