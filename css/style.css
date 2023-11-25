@@ -27,13 +27,13 @@ html {
 .backdrop {
   display: none;
   position: absolute;
-  width: 1160px;
-  height: 1360px;
+  width: 1360px;
+  height: 1860px;
   animation: blur-in 1000ms forwards; /* Important */
 }
 
 .backdrop.out {
-  animation: blur-out 800ms forwards; /* Important */
+  animation: blur-out 1000ms forwards; /* Important */
 }
 
 header {
@@ -187,6 +187,7 @@ main h3 {
   margin-bottom: 2rem;
 }
 .container div {
+  transition: 1s;
   border-radius: 1rem;
   padding: 1.5rem 1.5rem;
   max-width: 300px;
@@ -229,6 +230,7 @@ main h3 {
 
 @media only screen and (max-width: 1030px) {
   .container {
+    transition: 1s;
     display: grid;
     margin: 0 auto;
     margin-top: 2rem;

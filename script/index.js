@@ -49,14 +49,14 @@ function toggleLanguage() {
     isPT = true;
   }
 }
-for (const div of containerDiv) 
-
+for (const div of containerDiv) {
   div.addEventListener("mouseenter", function () {
     targetDiv.style.display = "block";
     targetDiv.classList.remove("out");
   });
 
   div.addEventListener("mouseleave", function () {
+    targetDiv.style.display = "none";
     targetDiv.classList.add("out");
     setTimeout(() => {
       targetDiv.style.display = "none";
