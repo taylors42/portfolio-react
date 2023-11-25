@@ -175,16 +175,39 @@ main h3 {
   row-gap: 1rem;
   place-content: center;
 }
+
 .education {
   display: flex;
   justify-content: center;
 }
 
+.cipher a {
+  color: white;
+}
+.cipher p {
+  padding-top: 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+.cipher img {
+  transition: 0.8s;
+  height: 25px;
+  gap: 30rem;
+}
 .education h1 {
   font-size: var(--f-tittle);
   font-weight: 500;
   margin-top: 1rem;
   margin-bottom: 2rem;
+}
+.projects {
+  margin-top: 3rem;
+  display: flex;
+  justify-content: center;
+}
+projects h1 {
+  font-size: var(--f-tittle);
+  font-weight: 500;
 }
 .container div {
   transition: 1s;
@@ -211,16 +234,10 @@ main h3 {
   box-shadow: 0px 0px 90px 24px rgba(0, 0, 0, 0.66);
 }
 
-.container div h1:hover {
+.container div img:hover {
   transition: 0.8s;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
-
-.container div p:hover {
-  transition: 0.8s;
-  transform: scale(1.02);
-}
-
 .space {
   display: flex;
   height: 1px;

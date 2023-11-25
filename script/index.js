@@ -58,8 +58,6 @@ for (const div of containerDiv) {
   div.addEventListener("mouseleave", function () {
     targetDiv.style.display = "none";
     targetDiv.classList.add("out");
-    setTimeout(() => {
-      targetDiv.style.display = "none";
-    }, 400);
+    targetDiv.style.display = "none";
   });
 }
