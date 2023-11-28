@@ -33,7 +33,7 @@ function toggleLanguage() {
     button.textContent = "english/en-us";
     document.querySelector(".infos h1").textContent = "More About me";
     document.querySelector(".blocks h1").textContent = "Experience";
-    document.querySelector(".infos h2").textContent = "Front-end Development";
+    document.querySelector(".infos h2").textContent = "Front-end Developer";
     document.querySelector(".infos h3").textContent =
       " Dedicated and versatile professional with a proven track on assist in marketing stategy datalysis, result assessement and Front-end technologys like HTML, CSS, JavaScript React.js and TypeScript. A strategic thinker with a passion for leveraging technology to enhance any project efforts and drive business growth. I currently have a bachelor's degree in Software Engineering and got some skills in communication by working with people.";
     document.querySelector(".education_text").textContent = "Education";
