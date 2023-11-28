@@ -55,6 +55,7 @@ function toggleLanguage() {
     isPT = true;
   }
 }
+
 for (const div of containerDiv) {
   div.addEventListener("mouseenter", function () {
     targetDiv.style.display = "block";

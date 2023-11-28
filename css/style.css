@@ -120,24 +120,20 @@ main h3 {
   gap: 1.4rem;
 }
 
-.projects div {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.projects img {
+.projects svg {
   align-items: center;
   height: auto;
   width: auto;
-  min-height: 40px;
+  min-height: 48px;
   transition: 1s;
 }
 
-.projects img:hover {
+.projects svg:hover {
   transition: 1s;
   transform: scale(1.2);
-  filter: drop-shadow(0px 0px 6px black);
+  -webkit-box-shadow: 0px 0px 74px 6px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 74px 6px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 74px 6px rgba(0, 0, 0, 0.7);
 }
 /*---------------*/
 
