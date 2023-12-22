@@ -19,7 +19,7 @@ function App() {
         <About/>
         <Experience year="2018 - 2020" job="Web Development Assistant" description="I assisted in the web area, with Front-end planning of 
           websites and the study of technologies such as JavaScript, Node.js, TypeScript, and React.js, as well as Responsive Design. I also briefly 
-          assisted in the marketing area with strategy, data analysis, and result evaluation." tech1=""/>
+          assisted in the marketing area with strategy, data analysis, and result evaluation." />
       </div>
     </div>
   </div>
