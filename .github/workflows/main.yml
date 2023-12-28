@@ -17,6 +17,7 @@ jobs:
       - run: npm run build
       - run: npm install rimraf --global
       - run: npm run clean
+      - run: npm run move
 
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
