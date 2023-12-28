@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "move": "cd build && cp -rf * .. && cd ..",
+    "move": "cd build && cp -rf * ..",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
