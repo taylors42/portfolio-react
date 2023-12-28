@@ -1,6 +1,7 @@
 {
   "name": "portifolio",
   "version": "0.1.0",
+  "homepage": "./",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
@@ -16,7 +17,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "move": "cd build && cp -rf * ..",
+    "move": "cd build && cp -rf * .. && cd ..",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
