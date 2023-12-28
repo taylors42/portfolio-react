@@ -26,17 +26,14 @@ function App() {
                     <Experience year="2023" job="Front-end Developer Jr." description="I assisted in the web area, with Front-end planning of 
                       websites and the study of technologies such as JavaScript, Node.js, TypeScript, and React.js, as well as Responsive Design. I also briefly 
                       assisted in the marketing area with strategy, data analysis, and result evaluation." />
-        
                     <Experience year="2018 2019" job="Tech Assistant " description="I performed several functions, from customer service 
                       to assistance in Technical maintenance, management and control of orders with Excel, also helping to resolve technical 
                       problems with both hardware and software." />
-
                 </div>
             </div>
           </div>
       </Route>
-      
-      <Route path="/AboutPage">
+      <Route path="/aboutpage">
         <AboutPage/>
         <Link to="/" className="text-white flex justify-center animate-pulse">
         <p> click here to return for the home page</p>
