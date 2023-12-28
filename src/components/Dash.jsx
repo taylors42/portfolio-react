@@ -1,5 +1,4 @@
 import resume from '../resources/taylorResume.pdf';
-import { BrowserRouter as Link } from "react-router-dom";
 function Dash () {
     return (
         <ul className=" flex md:flex-col max-md:items-center max-md:justify-center text-white lg:mt-14 gap-3 duration-500 max-lg:text-xl max-lg:text-center 2xl:text-xl">
