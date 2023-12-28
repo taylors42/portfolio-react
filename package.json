@@ -16,7 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "clean": "rimraf *",
+    "clean": "rimraf .ftp-deploy-sync-state.json",
     "move": "cd build && cp -rf * ../ && cd ..",
     "eject": "react-scripts eject"
   },
