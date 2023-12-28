@@ -16,6 +16,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "clean": "rimraf *",
     "move": "cd build && cp -rf * ../ && cd ..",
     "eject": "react-scripts eject"
   },
