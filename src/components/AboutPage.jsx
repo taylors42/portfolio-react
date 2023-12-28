@@ -2,7 +2,7 @@ function AboutPage(){
     return(
         <div>
         <div className="flex flex-col text-center mt-[4rem] text-white text-lg">
-            <h1 className="mb-2">Hi There I'am Taylor, <span className=" text-lg font-bold ">a Web Developer</span></h1>
+            <h1 className="mb-2">Hi There I'am Taylor Souza, <span className=" text-lg font-bold ">a Web Developer</span></h1>
             <p className="mb-10">My research interest and I'am open to:</p>
             <ul>
                 <li className="duration-500 hover:scale-125 cursor-default">Web Development</li>
