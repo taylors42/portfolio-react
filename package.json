@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "clean": "rimraf node_modules package.json package-lock.json public README.md src tailwind.config.js",
-    "move": "cd build && mv * .. && cd .. && rm -rf build",
+    "move": "cd build && mv * .. && cd .. && rimraf build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
