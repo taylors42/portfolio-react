@@ -1,9 +1,8 @@
 * {
-font-family: 'Heebo', sans-serif;
+  font-family: "Cantarell", sans-serif;
 }
 html {
-    background: rgb(9,6,54);
-    background: linear-gradient(90deg, rgba(9,6,54,1) 0%, rgba(1,3,18,1) 100%); 
+  background-color: rgb(20, 20, 20);
 }
 @tailwind base;
 @tailwind components;
